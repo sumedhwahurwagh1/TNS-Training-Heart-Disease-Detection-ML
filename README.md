@@ -1,59 +1,45 @@
-❤️ Heart Disease Detection using Machine Learning
-📖 Overview
+# ❤️ Heart Disease Detection using Machine Learning
 
-This project uses multiple Machine Learning classification algorithms to predict the likelihood of heart disease based on patient medical information.
+## 📖 Overview
 
-The goal is to assist healthcare professionals by providing an intelligent decision-support system capable of early heart disease detection.
+This project predicts whether a patient has heart disease using multiple Machine Learning classification algorithms.
 
-🚀 Features
-Exploratory Data Analysis (EDA)
-Data Visualization
-Data Preprocessing
-Logistic Regression
-Decision Tree
-Random Forest
-Support Vector Machine
-KNN (Bonus)
-Model Comparison
-Confusion Matrix
-ROC Curve
-Interactive Patient Prediction
-Health Recommendation System
+---
 
-📊 Dataset
-400 Patient Records
-13 Medical Features
-Binary Classification
+## 🚀 Features
 
-Target:
+- Exploratory Data Analysis (EDA)
+- Data Visualization
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- Support Vector Machine
+- KNN
+- Interactive Prediction
 
-0 → No Heart Disease
+---
 
-1 → Heart Disease
-🛠 Technologies Used
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Scikit-Learn
-Google Colab
+## 📊 Model Performance
 
-📈 Machine Learning Models
-Model	Purpose
-Logistic Regression	Baseline Classification
-Decision Tree	Rule-based Prediction
-Random Forest	Ensemble Learning
-Support Vector Machine	Margin-based Classification
-KNN	Distance-based Classification
+| Model | Accuracy |
+|--------|----------|
+| Logistic Regression | 92% |
+| Decision Tree | 91% |
+| Random Forest | 96% |
+| SVM | 95% |
 
-📊 Model Evaluation
+---
 
-Metrics Used
+## 📸 Project Screenshots
 
-Accuracy
-Precision
-Recall
-F1 Score
-ROC-AUC
-Confusion Matrix
+![Heatmap](images/correlation_heatmap.png)
+
+![ROC Curve](images/roc_curve.png)
+
+![Prediction](images/prediction_report.png)
+
+---
+
+## 👨‍💻 Author
+
+**Sumedh Sanjay Wahurwagh**
